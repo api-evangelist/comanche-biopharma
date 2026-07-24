@@ -1,8 +1,15 @@
 aid: comanche-biopharma
 name: Comanche Biopharma
-description: 'Comanche Biopharma is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Comanche Biopharma is a clinical-stage biopharmaceutical company based
+  in Concord, Massachusetts, developing investigational siRNA (small interfering RNA)
+  medicines for maternal health. Its lead candidate, CBP-4888, is a subcutaneously
+  administered siRNA therapy targeting sFlt1-mediated preterm preeclampsia, a leading
+  and potentially life-threatening complication of pregnancy. The company''s mission
+  is to develop and make globally available the first therapy targeting a root cause
+  of preeclampsia. In April 2025, CBP-4888 received Orphan Drug Designation from the
+  European Medicines Agency. Comanche Biopharma is a portfolio company of GV (Google
+  Ventures). As a therapeutics company it publishes a corporate and scientific web
+  presence rather than a public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/comanche-biopharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://comanchebiopharma.com/wp-content/uploads/2023/07/comanchebiopharma-logo-preeclampsia-treatment-prevention-CBP4888-mikeyoung-scottjohnson-biopharmaceutical-siRNAtherapy.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Biopharmaceutical
+- Biotechnology
+- Maternal Health
+- Preeclampsia
+- siRNA Therapeutics
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://comanchebiopharma.com
+- type: About
+  url: https://comanchebiopharma.com/about-us/
+- type: Blog
+  url: https://comanchebiopharma.com/news-and-events/
+- type: BlogRSS
+  url: https://comanchebiopharma.com/feed/
+- type: Support
+  url: https://comanchebiopharma.com/contact-us/
+- type: TermsOfService
+  url: https://comanchebiopharma.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/comanche-biopharma/
+- type: DomainSecurity
+  url: security/comanche-biopharma-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
